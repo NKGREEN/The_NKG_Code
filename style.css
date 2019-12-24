@@ -1,9 +1,103 @@
 body {
-background-image: url("https://i.imgur.com/YZfNqys.jpg");
+  margin: 0;
 }
 
-html, body {
-    height: 100%;
-    overflow: hidden;
+td, p {
+  font-size: 16px;
+  color: black;
+  font-family: 'Lato', 'Montserrat';
+  strong {
+    color: black;
   }
+}
+ul {
+  margin: 0 0 10px 25px;
+  padding: 0;
+}
+li {
+  margin: 0 0 3px 0;
+  strong {
+    color: black;
+  }
+}
+img {
+  max-width: 100%;
+}
+blockquote {
+  margin: 10px;
+  font-style: italic;
+}
+h1, h2 {
+  color: black;
+}
+h1 {
+  font-size: 25px;
+  line-height: 1.4;
+}
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #2F82DE;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.entire-page {
+  background: #ccc;
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+.email-body {
+  max-width: 600px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: white;
+  border-collapse: collapse;
+}
+
+.email-header {
+  background: #DF00FE; 
+  padding: 30px;
+}
+
+.news-section {
+  padding: 20px 30px;
+}
+
+.img-wrap {
+  text-align: center;
+  background: #eee;
+  padding: 5px;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  &.white {
+    background: white;
+    padding: 20px;
+  }
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #222;
+  color: #eee;
+  padding: 15px;
+}
+code {
+  font-family: consolas, Menlo, Monaco, monospace;
+}
+
+.footer {
+  background: #DF00FE;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
   
